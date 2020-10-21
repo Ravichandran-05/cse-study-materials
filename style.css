@@ -1,0 +1,47 @@
+#body-color {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navbar-brand {
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    cursor: unset;
+    font-size: 30px;
+}
+
+.nav-item {
+    margin-left: 100px;
+    padding: 5px;
+    width: 110px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    background-color: rgb(40, 179, 221);
+    color: white;
+}
+
+.quote {
+    text-align: center;
+    color: rgb(16, 128, 16);
+    font-style: italic;
+    font-size: 33px;
+    margin-top: 210px;
+    font-family: cursive;
+}
