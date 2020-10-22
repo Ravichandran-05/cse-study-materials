@@ -19,9 +19,8 @@
 #pdf {
     margin-left: 340px;
     width: 771pt;
-    height: 580px;
-  
-    
+    height: 581.78px;
+    scroll-behavior: smooth;
 }
 
 #notes {
