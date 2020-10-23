@@ -29,7 +29,7 @@
 }
 
 #syllabus:hover {
-    color: rgb(44, 128, 255);
+text-decoration: underline;
 }
 
 #notes {
