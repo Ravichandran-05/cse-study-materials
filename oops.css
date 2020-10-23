@@ -22,6 +22,15 @@
     height: 695px;
     scroll-behavior: smooth;
 }
+#syllabus {
+    text-decoration: none;
+    color: rgb(32, 248, 32);
+    cursor: pointer;
+}
+
+#syllabus:hover {
+    color: rgb(44, 128, 255);
+}
 
 #notes {
     margin-left: 250pt;
